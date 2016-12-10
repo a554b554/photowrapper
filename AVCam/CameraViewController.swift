@@ -16,10 +16,15 @@ class CameraViewController: UIViewController, AVCaptureFileOutputRecordingDelega
     var qrCodeFrameView:UIView?
     var barFrameView:UIView?
     var resView:resultViewController?
-	
+ 
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let location = touches.first?.location(in: self.view)
+        print("Location: \(location)")
+    }
+    
     override func viewDidLoad() {
 		super.viewDidLoad()
-		
+        
 		// Disable UI. The UI is enabled if and only if the session starts running.
 		cameraButton.isEnabled = false
 		recordButton.isEnabled = false
@@ -548,6 +553,9 @@ class CameraViewController: UIViewController, AVCaptureFileOutputRecordingDelega
         let cropView = cropViewController();
         cropView.originalImage = image;
         UIView.transition(from: self.view, to: cropView.view, duration: 0.1, options: UIViewAnimationOptions.curveEaseIn, completion: nil)
+//        self.view.removeFromSuperview()
+        self.dismiss(animated: true, completion: {})
+        print("released")
 
     }
     
@@ -663,7 +671,8 @@ class CameraViewController: UIViewController, AVCaptureFileOutputRecordingDelega
 			entering the session queue. We do this to ensure UI elements are accessed on
 			the main thread and session configuration is done on the session queue.
 		*/
-        changeViewToWait();
+//        changeViewToWait();
+        
 		let videoPreviewLayerOrientation = previewView.videoPreviewLayer.connection.videoOrientation
 		
 		sessionQueue.async {

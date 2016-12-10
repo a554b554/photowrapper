@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "423A3E34512048612E60A00C05DE38F50DEDA95B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7B4C8DCF64926D995218EACB4C4E1CF72AD02B06" : 9223372036854775807,
+    "423A3E34512048612E60A00C05DE38F50DEDA95B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F51A05F5-26FA-42E0-AB0A-0C64FC0CBC0A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7B4C8DCF64926D995218EACB4C4E1CF72AD02B06" : "..\/..",
+    "423A3E34512048612E60A00C05DE38F50DEDA95B" : "Swift\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AVCam Swift",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AVCam Swift.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/a554b554\/photowrapper.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "423A3E34512048612E60A00C05DE38F50DEDA95B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/a554b554\/font.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7B4C8DCF64926D995218EACB4C4E1CF72AD02B06"
+    }
+  ]
+}

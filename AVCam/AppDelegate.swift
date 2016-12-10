@@ -11,4 +11,13 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 	var window: UIWindow?
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
+        
+//        var rootView: MyRootViewController = MyRootViewController()
+        //Code to set this viewController as the root view??
+        print("call?>")
+        
+        return true
+        
+    }
 }
